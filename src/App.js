@@ -5,9 +5,11 @@ import {useState, useEffect} from 'react';
 
 function App() {
 
+  const [dataApi, setDataApi] = useState({});
+
   const api = async ()=>{
   const data = await fetchData();
-  console.log(data);
+  setDataApi(data);
   }
 
   useEffect(()=>{
@@ -16,7 +18,7 @@ function App() {
 
   return (
     <div className="container">
-      <Cards/>
+      <Cards dataApi={dataApi}/>
       <Charts/>
       <CountryPicker/>
     </div>
