@@ -2,9 +2,9 @@ import React from 'react'
 
 const Charts = () => {
     return (
-        <div>
+        <h1>
             Charts
-        </div>
+        </h1>
     )
 }
 
