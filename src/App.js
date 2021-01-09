@@ -19,8 +19,8 @@ function App() {
   return (
     <div className="container">
       <Cards dataApi={dataApi}/>
-      <Charts/>
       <CountryPicker/>
+      <Charts/>
     </div>
   );
 }
