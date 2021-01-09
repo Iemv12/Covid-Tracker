@@ -11,8 +11,14 @@
     border-bottom: 8px solid rgba(0, 0, 255, 0.5);
 }
 .recovered{
-    border-bottom: 8px solid rgba(0, 255, 0, 0.5);
+    border-bottom: 8px solid rgba(81, 189, 81, 0.5);
 }
 .death{
     border-bottom: 8px solid rgba(255, 0, 0, 0.5);
+}
+
+@media(max-width:770px){
+    .card{
+        margin: 2% 0 !important;
+    }
 }
