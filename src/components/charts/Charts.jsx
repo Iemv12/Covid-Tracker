@@ -15,9 +15,6 @@ const Charts = ({dataApi:{confirmed, recovered, deaths}, country}) => {
         setDailyData(await fetchDailyData());
     };
 
-
-    console.log({confirmed, recovered, deaths});
-
     const lineChart = (
         dailyData.length
             ? (
